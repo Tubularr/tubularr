@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "tubularr-ui",
+    "slug": "tubularr-ui",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "tubularr-ui"
+}
