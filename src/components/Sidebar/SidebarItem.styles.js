@@ -4,14 +4,12 @@ import colorCodes from'../../constants/colorCodes';
 export default StyleSheet.create({
   wrapper: {
     display: 'flex',
-    height: 85,
     alignSelf: 'stretch',
-    backgroundColor: colorCodes.highlight
+    marginVertical: 10
   },
   mainRow: {
     display: 'flex',
     flexDirection: 'row',
-    backgroundColor: colorCodes.backgroundDark
   },
   activeIndicatorColumn: {
     flex: 1
@@ -19,9 +17,22 @@ export default StyleSheet.create({
   activeIndicatorActive: {
     backgroundColor: colorCodes.red
   },
-  ItemWrapper: {
-    flex: 10,
-    backgroundColor: colorCodes.backgroundLight
+  iconColumn: {
+    flex: 1
+  },
+  titleColumn: {
+    flex: 5,
+    textAlign: 'left',
+    paddingLeft: 10,
+    justifyContent: 'center',
+    fontSize: 20,
+    cursor: 'pointer',
+  },
+  titleText: {
+    color: colorCodes.white,
+  },
+  titleTextHover: {
+    color: colorCodes.highlight,
   },
   childrenContainer: {
     backgroundColor: colorCodes.backgroundDark

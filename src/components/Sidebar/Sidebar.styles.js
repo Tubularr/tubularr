@@ -7,6 +7,6 @@ export default StyleSheet.create({
     maxWidth: 200,
     flex: 1,
     backgroundColor: colorCodes.backgroundLight,
-    paddingTop: 10
+    paddingTop: 20
   }
 });
